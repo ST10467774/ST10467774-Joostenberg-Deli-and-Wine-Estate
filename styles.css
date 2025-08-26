@@ -34,7 +34,7 @@ body{
   width:44px; height:44px; border-radius:50%;
   background:var(--brown-600); color:var(--white);
   display:grid; place-items:center; font-weight:700;
-  box-shadow:0 4px 12px rgba(107,79,58,.35);
+  box-shadow:0 4px 12px rgba(155, 100, 58, 0.35);
 }
 .brand h1{font-family:"Playfair Display", serif; font-size:1.35rem; margin:0}
 nav ul{list-style:none; display:flex; gap:1rem; margin:0; padding:0}
@@ -71,78 +71,77 @@ nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)}
   font-family:"Playfair Display", serif; font-size:2.4rem; margin:.25rem 0 0;
 }
 .hero p{max-width:60ch; margin:.6rem 0 1rem}
-.btn{
+.button{
   display:inline-block; text-decoration:none; font-weight:700;
   padding:.75rem 1.1rem; border-radius:12px; transition:.2s; border:none; cursor:pointer
 }
-.btn-primary{background:var(--brown-600); color:#fff}
-.btn-primary:hover{filter:brightness(.95)}
-.btn-ghost{background:rgba(255,255,255,.9); color:var(--brown-800)}
-.btn-ghost:hover{background:#fff}
+.button-primary{background:var(--brown-600); color:#86DD8F}
+.button-primary:hover{filter:brightness(.98)}
+.button-ghost:hover{background:#86DD8F}
 
 /* ============== Cards / Grids ============== */
 .grid{display:grid; gap:1.2rem}
 .grid-3{grid-template-columns:repeat(3, 1fr)}
 .grid-2{grid-template-columns:repeat(2, 1fr)}
 .card{
-  background:#fff; border-radius:var(--radius); box-shadow:var(--shadow);
+  background: #AA948F; border-radius:var(--radius); box-shadow:var(--shadow);
   overflow:hidden; display:flex; flex-direction:column
 }
-.card img{width:100%; height:220px; object-fit:cover}
+.card img{width:100%; height:190px; object-fit:cover}
 .card-body{padding:1rem}
-.card h3{margin:.2rem 0 .4rem; font-family:"Playfair Display",serif}
+.card h3{margin:.1rem 0 .2rem; font-family:"Playfair Display",serif}
 .price{font-weight:800; color:var(--brown-800)}
-.kicker{color:var(--muted); font-size:.92rem}
+.kicker{color:var(--muted); font-size:.80rem}
 
 /* ============== Tables & Forms ============== */
-.table{width:100%; border-collapse:collapse; background:#fff; border-radius:12px; overflow:hidden; box-shadow:var(--shadow)}
-.table th,.table td{padding:.8rem 1rem; border-bottom:1px solid #eee}
+.table{width:100%; border-collapse:collapse; background:#D49AB3; border-radius:9px; overflow:hidden; box-shadow:var(--black-300)}
+.table th,.table td{padding:.6rem 1rem; border-bottom:1px solid #FFEFEC}
 .table th{background:var(--purple-300); text-align:left}
 .form{
-  background:#fff; padding:1.2rem; border-radius:var(--radius); box-shadow:var(--shadow)
+  background:#F7E0E8; padding:1.2rem; border-radius:var(--radius); box-shadow:var(--shadow)
 }
 .form .row{display:grid; grid-template-columns:1fr 1fr; gap:1rem}
-label{font-weight:700}
+label{font-weight:600}
 input, select, textarea{
-  width:100%; padding:.75rem; border-radius:10px; border:1px solid #ddd; outline:none;
+  width: 100%; padding:.80rem; border-radius:9px; border:1px solid #230b0b; outline:none;
 }
-textarea{min-height:140px; resize:vertical}
-.helper{color:var(--muted); font-size:.9rem}
+textarea{min-height:120px; resize:vertical}
+.helper{color:var(--black-300); font: size 7rem}
 
 /* ============== Footer ============== */
 .footer{
-  margin-top:2rem; background:#fff; border-top:6px solid var(--purple-300);
+  margin-top:1rem; background: #CB996C; border-top:5px solid var(--black-300);
 }
 .footer .cols{display:grid; gap:1rem; grid-template-columns:1.6fr 1fr 1fr}
-.footer small{color:var(--muted)}
+.footer small{color:var(--brown-800)}
 
 /* ============== Calendar ============== */
 .calendar{
-  background:#fff; border-radius:var(--radius); box-shadow:var(--shadow);
+  background:hwb(38 20% 20%); border-radius:var(--radius); box-shadow:var(--black-300);
   padding:1rem
 }
 .calendar .cal-head{
-  display:flex; justify-content:space-between; align-items:center; margin-bottom:.5rem
+  display:flex; justify-content:space-between; align-items:center; margin-bottom:.2rem
 }
 .calendar .grid{
-  grid-template-columns:repeat(7,1fr); gap:.35rem
+  grid-template-columns:repeat(7,1fr); gap:.32rem
 }
 .calendar .day, .calendar .dow{
-  text-align:center; padding:.6rem 0; border-radius:8px
+  text-align:center; padding:.3rem 0; border-radius:4px
 }
-.calendar .dow{font-weight:700; color:var(--brown-800)}
-.calendar .day:hover{background:var(--purple-300); cursor:pointer}
-.calendar .selected{background:var(--brown-600); color:#fff}
+.calendar .dow{font-weight:600; color:var(--black-800)}
+.calendar .day:hover{background:var(--black-300); cursor:pointer} 
+.calendar .selected{background:var(--black-600); color:#120804}
 
 /* ============== Responsive ============== */
-@media (max-width:900px){
+@media (max-width:300px){
   .grid-3{grid-template-columns:1fr 1fr}
   .footer .cols{grid-template-columns:1fr 1fr}
 }
-@media (max-width:680px){
+@media (max-width:400px){
   .grid-3,.grid-2{grid-template-columns:1fr}
   .form .row{grid-template-columns:1fr}
-  .menu-btn{display:block}
-  nav ul{display:none; position:absolute; right:1rem; top:74px; flex-direction:column; background:#fff; padding:1rem; border-radius:12px; box-shadow:var(--shadow)}
+  .menu-button{display:block}
+  nav ul{display:none; position:absolute; right:1rem; top:74px; flex-direction:column; background:#ffffff; padding:1rem; border-radius:10px; box-shadow:var(--black-300)}
   nav ul.open{display:flex}
 }
