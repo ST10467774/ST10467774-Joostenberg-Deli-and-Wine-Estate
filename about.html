@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About • Klein Joostenberg</title>
+<link href="styles.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+  <div class="container navbar">
+    <a class="brand" href="index.html"><div class="logo">KJ</div><h1>Klein Joostenberg Deli & Wine Estate</h1></a>
+    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <nav><ul>
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li><li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li></ul></nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero" style="background-image:url('https://images.unsplash.com/photo-1528821154947-1aa3d1b7493f?q=80&w=1920&auto=format&fit=crop')">
+    <div class="hero-content">
+      <span class="badge">Our Story</span>
+      <h2>Family roots, seasonal cooking and wines made on the farm.</h2>
+      <p>We believe in honest food, sustainable farming and warm hospitality.</p>
+    </div>
+  </section>
+
+  <section class="grid grid-2">
+    <article class="card">
+      <div class="card-body">
+        <h3>Short History</h3>
+        <p>Klein Joostenberg forms part of the historic Joostenberg estate near Stellenbosch. What began as a family kitchen garden and small butchery has grown into a bustling deli, bakery and restaurant, supported by our own herds, orchards and vineyards. The deli celebrates local producers, traditional charcuterie and country baking, while our wines are crafted with a light touch to express the farm’s granitic soils and cool breezes.</p>
+        <p>Today, families gather under the oaks for breakfast and lunch, stock the pantry with farm produce, and take home our Joostenberg wines—made right here on the property.</p>
+      </div>
+    </article>
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1523362628745-0c100150b91a?q=80&w=1200&auto=format&fit=crop" alt="Bakery and deli counter">
+      <div class="card-body">
+        <h3>Philosophy</h3>
+        <p>Cook seasonally, source locally, waste less. Our farm-to-table approach keeps ingredients fresh and flavours honest.</p>
+      </div>
+    </article>
+  </section>
+
+  <section>
+    <h3>What we make</h3>
+    <div class="grid grid-3">
+      <div class="card"><img src="https://images.unsplash.com/photo-1541976076758-347942db1970?q=80&w=1200&auto=format&fit=crop" alt="Cured meats"><div class="card-body"><h3>Charcuterie</h3><p>Country paté, rillettes, ham & bresaola.</p></div></div>
+      <div class="card"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop" alt="Cheese and bread"><div class="card-body"><h3>Bakery</h3><p>Sourdough, baguettes, croissants & cakes.</p></div></div>
+      <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIJHeTl2MntteV1b5qbLzihmcl0elbnflApQ&s" alt="Wine bottle and glass"><div class="card-body"><h3>Wines</h3><p>Merlot, Chenin Blanc, Rosé and blends.</p></div></div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container cols">
+    <div><div class="brand"><div class="logo">KJ</div><h1>Klein Joostenberg</h1></div><p class="kicker">Farm-to-table deli, bakery & wines.</p><small>© <span id="year"></span> Klein Joostenberg.</small></div>
+    <div><h3>Visit</h3><p>Muldersvlei Rd, Stellenbosch</p><p class="kicker">Daily 08:00–17:00 • <span data-open-badge class="badge"></span></p></div>
+    <div><h3>Contact</h3><p>+27 (0)21 884 4014<br>hello@joostenberg.co.za</p><p><a href="enquiry.html">Send an enquiry →</a></p></div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>

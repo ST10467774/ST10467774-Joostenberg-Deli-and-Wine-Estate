@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact & Visit • Klein Joostenberg</title>
+<link href="styles.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+  <div class="container navbar">
+    <a class="brand" href="index.html"><div class="logo">KJ</div><h1>Klein Joostenberg Deli & Wine Estate</h1></a>
+    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <nav><ul>
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li><li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li></ul></nav>
+  </div>
+</header>
+
+<main class="container">
+  <section>
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-body">
+          <h3>Visit Us</h3>
+          <p><strong>Address:</strong><br>
+            Klein Joostenberg, Muldersvlei Rd,<br>
+            Stellenbosch, Western Cape, South Africa</p>
+          <p><strong>Phone:</strong> +27 (0)21 884 4014<br>
+             <strong>Email:</strong> hello@joostenberg.co.za</p>
+
+          <h4>Opening Hours</h4>
+          <table class="table" aria-label="Opening hours">
+            <thead><tr><th>Day</th><th>Hours</th></tr></thead>
+            <tbody>
+              <tr><td>Monday – Sunday</td><td>08:00 – 17:00</td></tr>
+            </tbody>
+          </table>
+          <p class="kicker">Today: <span data-open-badge class="badge"></span></p>
+          <p class="helper">Kitchen closes 30 minutes before closing. Public holidays may differ.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3>Map</h3>
+          <!-- OpenStreetMap embed (no API key required) -->
+          <iframe title="Map to Klein Joostenberg"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=18.752%2C-33.886%2C18.860%2C-33.819&layer=mapnik&marker=-33.853,18.805"
+            style="width:100%; height:320px; border:0; border-radius:12px;"></iframe>
+          <p class="helper"><a href="https://www.openstreetmap.org/?mlat=-33.853&mlon=18.805#map=13/-33.853/18.805" target="_blank" rel="noopener">Open in Maps</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid grid-2" aria-labelledby="booking-title">
+    <div class="calendar">
+      <div class="cal-head">
+        <button class="btn btn-ghost" type="button" data-prev>‹</button>
+        <strong data-title>Calendar</strong>
+        <button class="btn btn-ghost" type="button" data-next>›</button>
+      </div>
+      <div class="grid"></div>
+      <p class="helper">Pick your preferred date for a visit. Peak times are weekends 10:00–14:00 (book early!).</p>
+    </div>
+
+    <form id="booking-form" class="form">
+      <h3 id="booking-title" style="margin-top:0">Booking Request</h3>
+      <div class="row">
+        <div><label for="people">Guests</label><input id="people" name="people" type="number" min="1" max="20" value="2" required></div>
+        <div><label for="time">Time</label>
+          <select id="time" name="time" required>
+            <option>08:00</option><option>09:00</option><option>10:00</option><option>11:00</option>
+            <option>12:00</option><option>13:00</option><option>14:00</option><option>15:00</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div><label for="booking-date">Date</label><input id="booking-date" name="date" type="date" required></div>
+        <div><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div>
+      </div>
+      <label for="notes">Notes</label>
+      <textarea id="notes" name="notes" placeholder="High-chair, dietary requests, celebration?"></textarea>
+      <button class="btn btn-primary" type="submit">Send booking request</button>
+      <p class="helper">This sends a request only — our team will confirm availability by email.</p>
+    </form>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container cols">
+    <div><div class="brand"><div class="logo">KJ</div><h1>Klein Joostenberg</h1></div><p class="kicker">Farm-to-table deli, bakery & wines.</p><small>© <span id="year"></span> Klein Joostenberg.</small></div>
+    <div><h3>Visit</h3><p>Muldersvlei Rd, Stellenbosch</p><p class="kicker">Daily 08:00–17:00 • <span data-open-badge class="badge"></span></p></div>
+    <div><h3>Contact</h3><p>+27 (0)21 884 4014<br>hello@joostenberg.co.za</p><p><a href="enquiry.html">Send an enquiry →</a></p></div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>

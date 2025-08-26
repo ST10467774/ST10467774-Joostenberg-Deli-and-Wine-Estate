@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Klein Joostenberg • Home</title>
+<link href="styles.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="Klein Joostenberg Home">
+      <div class="logo">KJ</div>
+      <h1>Klein Joostenberg Deli & Wine Estate</h1>
+    </a>
+    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero" role="banner" aria-label="Farm-to-table hero image">
+    <div class="hero-content">
+      <span class="badge">Farm-to-table • Since 1999</span>
+      <h2>Seasonal food from our farm, artisan breads & family-made wines.</h2>
+      <p>Enjoy breakfast & lunch under the oaks, shop the deli for fresh produce, charcuterie and cheeses, and explore our Joostenberg wines.</p>
+      <div>
+        <a class="btn btn-primary" href="products.html">Shop Deli & Wine</a>
+        <a class="btn btn-ghost" href="contact.html">Book a Visit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu highlights -->
+  <section>
+    <h3 class="kicker">This week’s favourites</h3>
+    <div class="grid grid-3">
+      <article class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVE3nifSYcnJro4ONWP6LpsT7m_oM1Lzg4VQ&s" alt="Charcuterie board with cheeses and cured meats">
+        <div class="card-body">
+          <h3>Charcuterie Platter</h3>
+          <p>Farm-cured meats, country paté & local cheeses.</p>
+          <p class="price">R185</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPXK_aKOWc-8pbrY0xV3MlNM-JreZpVpPF9Q&s" alt="Freshly baked sourdough bread">
+        <div class="card-body">
+          <h3>Wood-Fired Sourdough</h3>
+          <p>Crackly crust, slow-fermented. Perfect with butter.</p>
+          <p class="price">R48</p>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://www.winebar.shop/cdn/shop/files/RallRed2_533432c9-c1d5-4cc9-9fbd-51db03b754e5.png?v=1735298790&width=2000" alt="Glass of red wine">
+        <div class="card-body">
+          <h3>Joostenberg Merlot</h3>
+          <p>Ripe plum & cocoa, silky finish.</p>
+          <p class="price">R135 / bottle</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Quick info -->
+  <section>
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-body">
+          <h3>Opening Hours</h3>
+          <table class="table" aria-label="Opening hours">
+            <thead><tr><th>Day</th><th>Hours</th></tr></thead>
+            <tbody>
+              <tr><td>Monday – Sunday</td><td>08:00 – 17:00</td></tr>
+            </tbody>
+          </table>
+          <p class="helper">Kitchen closes 30 minutes before closing. Public holidays may differ.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3>Make a Booking</h3>
+          <p>Planning a family lunch or tasting? Choose a date and send a request.</p>
+          <a class="btn btn-primary" href="contact.html">Open calendar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container cols">
+    <div>
+      <div class="brand"><div class="logo">KJ</div><h1>Klein Joostenberg</h1></div>
+      <p class="kicker">Farm-to-table deli, bakery & family-made wines in Stellenbosch, Western Cape.</p>
+      <small>© <span id="year"></span> Klein Joostenberg. All rights reserved.</small>
+    </div>
+    <div>
+      <h3>Visit</h3>
+      <p>Muldersvlei Rd, Stellenbosch, South Africa</p>
+      <p class="kicker">Daily 08:00–17:00 • <span data-open-badge class="badge"></span></p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>+27 (0)21 884 4014<br>hello@joostenberg.co.za</p>
+      <p><a href="enquiry.html">Send an enquiry →</a></p>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Products • Klein Joostenberg</title>
+<link href="styles.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+  <div class="container navbar">
+    <a class="brand" href="index.html"><div class="logo">KJ</div><h1>Klein Joostenberg Deli & Wine Estate</h1></a>
+    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <nav><ul>
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li><li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li></ul></nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero" style="background-image:url('https://images.unsplash.com/photo-1490818387583-1baba5e638af?q=80&w=1920&auto=format&fit=crop')">
+    <div class="hero-content">
+      <span class="badge">Shop</span>
+      <h2>Deli favourites & Joostenberg wines.</h2>
+      <p>Browse our most-loved items. Order enquiries welcome.</p>
+      <a class="btn btn-ghost" href="enquiry.html">Request an order</a>
+    </div>
+  </section>
+
+  <section>
+    <h3>Deli</h3>
+    <div class="grid grid-3">
+      <article class="card"><img alt="Cheese selection" src="https://images.unsplash.com/photo-1541690217669-4398a6d874a0?q=80&w=1200&auto=format&fit=crop"><div class="card-body"><h3>Local Cheese Box</h3><p>Bries, aged cheddar & goat’s cheese.</p><p class="price">R165</p></div></article>
+      <article class="card"><img alt="Cured meats" src="https://images.unsplash.com/photo-1523981839740-3e9a5d2560d1?q=80&w=1200&auto=format&fit=crop"><div class="card-body"><h3>Charcuterie Selection</h3><p>Bresaola, coppa, country ham.</p><p class="price">R175</p></div></article>
+      <article class="card"><img alt="Fresh sourdough" src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=1200&auto=format&fit=crop"><div class="card-body"><h3>Sourdough Loaf</h3><p>Slow-fermented, wood-fired.</p><p class="price">R48</p></div></article>
+      <article class="card"><img alt="Croissants" src="https://images.unsplash.com/photo-1541976076758-347942db1970?q=80&w=1200&auto=format&fit=crop"><div class="card-body"><h3>Butter Croissants (4)</h3><p>Flaky layers, hand-rolled.</p><p class="price">R95</p></div></article>
+      <article class="card"><img alt="Farm vegetables" src="https://images.unsplash.com/photo-1511689660979-10d2b1aada49?q=80&w=1200&auto=format&fit=crop"><div class="card-body"><h3>Seasonal Veg Box</h3><p>Fresh from the garden.</p><p class="price">R120</p></div></article>
+      <article class="card"><img alt="Chocolate cake" src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=1200&auto=format&fit=crop"><div class="card-body"><h3>Flourless Chocolate Cake</h3><p>Rich & velvety, 8 slices.</p><p class="price">R210</p></div></article>
+    </div>
+  </section>
+
+  <section>
+    <h3>Wines</h3>
+    <div class="grid grid-3">
+      <article class="card"><img alt="Merlot" src="https://images.unsplash.com/photo-1514362545857-3bc16c4c3a43?q=80&w=1200&auto=format&fit=crop"><div class="card-body"><h3>Merlot 2022</h3><p>Plum, cocoa & soft tannins.</p><p class="price">R135</p></div></article>
+      <article class="card"><img alt="Chenin Blanc" src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=1200&auto=format&fit=crop"><div class="card-body"><h3>Chenin Blanc 2023</h3><p>Stone fruit & citrus zest.</p><p class="price">R120</p></div></article>
+      <article class="card"><img alt="Rosé" src="https://images.unsplash.com/photo-1528821154947-1aa3d1b7493f?q=80&w=1200&auto=format&fit=crop"><div class="card-body"><h3>Dry Rosé 2023</h3><p>Strawberry & melon, crisp finish.</p><p class="price">R110</p></div></article>
+    </div>
+    <p class="helper">Looking for cases, hampers or corporate gifts? <a href="enquiry.html">Send us an enquiry</a>.</p>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container cols">
+    <div><div class="brand"><div class="logo">KJ</div><h1>Klein Joostenberg</h1></div><p class="kicker">Farm-to-table deli, bakery & wines.</p><small>© <span id="year"></span> Klein Joostenberg.</small></div>
+    <div><h3>Visit</h3><p>Muldersvlei Rd, Stellenbosch</p><p class="kicker">Daily 08:00–17:00 • <span data-open-badge class="badge"></span></p></div>
+    <div><h3>Contact</h3><p>+27 (0)21 884 4014<br>hello@joostenberg.co.za</p><p><a href="enquiry.html">Send an enquiry →</a></p></div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enquiry • Klein Joostenberg</title>
+<link href="styles.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+  <div class="container navbar">
+    <a class="brand" href="index.html"><div class="logo">KJ</div><h1>Klein Joostenberg Deli & Wine Estate</h1></a>
+    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <nav><ul>
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li><li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li></ul></nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero" style="background-image:url('https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?q=80&w=1920&auto=format&fit=crop')">
+    <div class="hero-content">
+      <span class="badge">How can we help?</span>
+      <h2>Wholesale, hampers, event platters or wine orders.</h2>
+      <p>Send us your request and we’ll reply within one working day.</p>
+    </div>
+  </section>
+
+  <section class="form" aria-labelledby="enquiry-title">
+    <h3 id="enquiry-title" style="margin-top:0">Enquiry Form</h3>
+    <form id="enquiry-form">
+      <div class="row">
+        <div>
+          <label for="name">Full name</label>
+          <input id="name" name="name" required placeholder="Your name">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com">
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" placeholder="+27…">
+        </div>
+        <div>
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject" required>
+            <option value="">Choose…</option>
+            <option>Deli order</option>
+            <option>Wine order</option>
+            <option>Hampers / Gifts</option>
+            <option>Event platter / Catering</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Tell us what you need…" required></textarea>
+      <p class="helper">By submitting, you agree for us to contact you back regarding your request.</p>
+      <button class="btn btn-primary" type="submit">Send enquiry</button>
+    </form>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container cols">
+    <div><div class="brand"><div class="logo">KJ</div><h1>Klein Joostenberg</h1></div><p class="kicker">Farm-to-table deli, bakery & wines.</p><small>© <span id="year"></span> Klein Joostenberg.</small></div>
+    <div><h3>Visit</h3><p>Muldersvlei Rd, Stellenbosch</p><p class="kicker">Daily 08:00–17:00 • <span data-open-badge class="badge"></span></p></div>
+    <div><h3>Contact</h3><p>+27 (0)21 884 4014<br>hello@joostenberg.co.za</p><p><a href="enquiry.html">Send an enquiry →</a></p></div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>
