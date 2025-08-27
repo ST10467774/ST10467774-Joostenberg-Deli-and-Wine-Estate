@@ -38,6 +38,7 @@ Wireframes: 13 August
 Development: 16 August
 Testing: 24 August
 Submission: 27 August
+Content Doc: Content Doc-ST10467774.docx
 Sitemap
 Homepage (index.html) – Food image, specials and contact details
 About (about.html) – History, mission, sustainability, family story.
