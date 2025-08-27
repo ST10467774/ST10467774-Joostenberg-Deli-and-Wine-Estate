@@ -4,6 +4,9 @@ GitHub link:https://github.com/ST10467774/Joostenberg-Deli-and-Wine-Estate/tree/
 
 Project Overview: Klein Joostenberg is a family-run deli, restaurant and wine estate in Stellenbosch, Western Cape. The website will make it easy for consumers to, browse the menu and reserve tables, purchase deli goods online, and learn about seasonal deals and wines.
 
+Website Description: Joostenberg Deli and Wine Estate
+The website is there to make it easier for the user to use instead of having to go to the place all the time and it also introduces the people to the the place that did not know it exist. The website is user friendly and gives important information on the place of when it opens and closes and also the contact details to find out about the place and to make reservations, wherefore there is a form in the websaite that needs to be filled in so that the people can gat the enquiry and let youknow on when the right time is to visit the place to do wine testing and there is even a restaurant and a deli to buy food.
+
 Website Goals and Objectives
 The main goal is to increase total deli and restaurant revenue by increasing the menu's reach and product sales via the new website.
 
