@@ -69,3 +69,5 @@ Joostenberg. (2025). The Deli. Available at: https://joostenberg.co.za/the-deli/
 Inside Guide. (2025). Klein Joostenberg. Available at: https://insideguide.co.za/cape-town/klein-joostenberg/ (Accessed: 20 August 2025).
 Changelog
 Changed HTML in the codes. Changed pictures in the website to make it more user friendly and attractive.
+
+### Updated Readme (WEDE5020-PART2)
