@@ -1,4 +1,5 @@
 /* ============== Root & Theme ============== */
+/* Variables for consistent theming across the site */
 :root{
   --purple-100:#DACCC1;     /* beige background */
   --purple-300:#d9c9f6;
@@ -18,7 +19,8 @@ body{
   font-family: "Lato", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color:var(--text);
   background:var(--purple-100);
-  line-height:1.6;
+  line-height:1.6; /* Typography: line-height */
+  font-size:1rem;  /* Typography: base font size using relative unit */
 }
 
 /* ============== Layout ============== */
@@ -27,24 +29,29 @@ body{
   background:linear-gradient(180deg, var(--purple-300), var(--purple-100));
   position:sticky; top:0; z-index:1000; box-shadow:var(--shadow);
 }
-.brand{
-  display:flex; align-items:center; gap:.75rem; padding:1rem 0;
-}
+.brand{ display:flex; align-items:center; gap:.75rem; padding:1rem 0; }
 .brand .logo{
   width:44px; height:44px; border-radius:50%;
   background:var(--brown-600); color:var(--white);
   display:grid; place-items:center; font-weight:700;
   box-shadow:0 4px 12px rgba(155, 100, 58, 0.35);
 }
-.brand h1{font-family:"Playfair Display", serif; font-size:1.35rem; margin:0}
-nav ul{list-style:none; display:flex; gap:1rem; margin:0; padding:0}
+.brand h1{
+  font-family:"Playfair Display", serif; 
+  font-size:1.35rem; 
+  margin:0; 
+  letter-spacing:0.5px; /* Typography: letter-spacing */
+}
+nav ul{
+  list-style:none; display:flex; gap:1rem; margin:0; padding:0
+}
 nav a{
   text-decoration:none; color:var(--brown-800);
   padding:.55rem .9rem; border-radius:999px; transition:.2s;
-  font-weight:600
+  font-weight:600; letter-spacing:0.3px; /* ✅ Typography */
 }
-nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)}
-.navbar{display:flex; justify-content:space-between; align-items:center}
+nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)} /* ✅ Visual Style: hover + active */
+.navbar{display:flex; justify-content:space-between; align-items:center} /* ✅ Flexbox Layout */
 .menu-btn{display:none; border:none; background:transparent; font-size:1.4rem}
 
 /* ============== Hero & Sections ============== */
@@ -59,9 +66,7 @@ nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)}
   content:""; position:absolute; inset:0;
   background:linear-gradient(180deg, rgba(42,30,68,.25), rgba(42,30,68,.65));
 }
-.hero .hero-content{
-  position:relative; z-index:2; max-width:700px;
-}
+.hero .hero-content{ position:relative; z-index:2; max-width:700px; }
 .badge{
   display:inline-block; padding:.35rem .65rem; border-radius:999px;
   background:rgba(255,255,255,.85); color:var(--brown-800);
@@ -69,8 +74,11 @@ nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)}
 }
 .hero h2{
   font-family:"Playfair Display", serif; font-size:2.4rem; margin:.25rem 0 0;
+  line-height:1.3; /* Typography: line-height */
 }
-.hero p{max-width:60ch; margin:.6rem 0 1rem}
+.hero p{max-width:60ch; margin:.6rem 0 1rem;}
+
+/* Buttons demonstrate hover/focus states */
 .button{
   display:inline-block; text-decoration:none; font-weight:700;
   padding:.75rem 1.1rem; border-radius:12px; transition:.2s; border:none; cursor:pointer
@@ -81,67 +89,77 @@ nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)}
 
 /* ============== Cards / Grids ============== */
 .grid{display:grid; gap:1.2rem}
-.grid-3{grid-template-columns:repeat(3, 1fr)}
+.grid-3{grid-template-columns:repeat(3, 1fr)} /* CSS Grid Layout */
 .grid-2{grid-template-columns:repeat(2, 1fr)}
 .card{
   background: #AA948F; border-radius:var(--radius); box-shadow:var(--shadow);
-  overflow:hidden; display:flex; flex-direction:column
+  overflow:hidden; display:flex; flex-direction:column;
 }
-.card img{width:100%; height:190px; object-fit:cover}
+.card img{
+  width:100%; height:auto; object-fit:cover; /* Responsive Images */
+}
 .card-body{padding:1rem}
-.card h3{margin:.1rem 0 .2rem; font-family:"Playfair Display",serif}
+.card h3{
+  margin:.1rem 0 .2rem; font-family:"Playfair Display",serif; 
+  font-size:1.2rem; font-weight:600;
+}
 .price{font-weight:800; color:var(--brown-800)}
 .kicker{color:var(--muted); font-size:.80rem}
 
 /* ============== Tables & Forms ============== */
-.table{width:100%; border-collapse:collapse; background:#D49AB3; border-radius:9px; overflow:hidden; box-shadow:var(--black-300)}
+.table{width:100%; border-collapse:collapse; background:#D49AB3; border-radius:9px; overflow:hidden; box-shadow:var(--shadow)}
 .table th,.table td{padding:.6rem 1rem; border-bottom:1px solid #FFEFEC}
 .table th{background:var(--purple-300); text-align:left}
 .form{
   background:#F7E0E8; padding:1.2rem; border-radius:var(--radius); box-shadow:var(--shadow)
 }
-.form .row{display:grid; grid-template-columns:1fr 1fr; gap:1rem}
+.form .row{display:grid; grid-template-columns:1fr 1fr; gap:1rem} /* Grid Layout inside form */
 label{font-weight:600}
 input, select, textarea{
   width: 100%; padding:.80rem; border-radius:9px; border:1px solid #230b0b; outline:none;
+  font-size:1rem; /* Typography: consistent form text */
 }
 textarea{min-height:120px; resize:vertical}
-.helper{color:var(--black-300); font: size 7rem}
+.helper{color:var(--muted); font-size:.9rem}
 
 /* ============== Footer ============== */
 .footer{
-  margin-top:1rem; background: #CB996C; border-top:5px solid var(--black-300);
+  margin-top:1rem; background: #CB996C; border-top:5px solid var(--brown-600);
 }
 .footer .cols{display:grid; gap:1rem; grid-template-columns:1.6fr 1fr 1fr}
 .footer small{color:var(--brown-800)}
 
 /* ============== Calendar ============== */
 .calendar{
-  background:hwb(38 20% 20%); border-radius:var(--radius); box-shadow:var(--black-300);
+  background:hwb(38 20% 20%); border-radius:var(--radius); box-shadow:var(--shadow);
   padding:1rem
 }
 .calendar .cal-head{
   display:flex; justify-content:space-between; align-items:center; margin-bottom:.2rem
 }
-.calendar .grid{
-  grid-template-columns:repeat(7,1fr); gap:.32rem
-}
+.calendar .grid{ grid-template-columns:repeat(7,1fr); gap:.32rem }
 .calendar .day, .calendar .dow{
   text-align:center; padding:.3rem 0; border-radius:4px
 }
-.calendar .dow{font-weight:600; color:var(--black-800)}
-.calendar .day:hover{background:var(--black-300); cursor:pointer} 
-.calendar .selected{background:var(--black-600); color:#120804}
+.calendar .dow{font-weight:600; color:var(--brown-800)}
+.calendar .day:hover{background:var(--purple-300); cursor:pointer} /* Hover state */
+.calendar .selected{background:var(--brown-600); color:#fff}
 
-/* ============== Responsive ============== */
-@media (max-width:300px){
+/* ============== Responsive Design ============== */
+/* Breakpoint: Tablet */
+@media (max-width:768px){ 
   .grid-3{grid-template-columns:1fr 1fr}
-  .footer .cols{grid-template-columns:1fr 1fr}
+  .navbar{flex-direction:column; align-items:flex-start}
 }
-@media (max-width:400px){
+
+/* Breakpoint: Mobile */
+@media (max-width:400px){ 
   .grid-3,.grid-2{grid-template-columns:1fr}
   .form .row{grid-template-columns:1fr}
-  .menu-button{display:block}
-  nav ul{display:none; position:absolute; right:1rem; top:74px; flex-direction:column; background:#ffffff; padding:1rem; border-radius:10px; box-shadow:var(--black-300)}
+  .menu-btn{display:block}
+  nav ul{
+    display:none; position:absolute; right:1rem; top:74px; flex-direction:column; 
+    background:#ffffff; padding:1rem; border-radius:10px; box-shadow:var(--shadow)
+  }
   nav ul.open{display:flex}
 }
