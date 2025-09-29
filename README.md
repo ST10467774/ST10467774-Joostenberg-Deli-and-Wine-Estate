@@ -70,4 +70,66 @@ Inside Guide. (2025). Klein Joostenberg. Available at: https://insideguide.co.za
 Changelog
 Changed HTML in the codes. Changed pictures in the website to make it more user friendly and attractive.
 
+Reference List
+Joostenberg, 2025. Klein Joostenberg Deli & Wine Estate. [online] Available at: https://joostenberg.co.za [Accessed 2 Aug. 2025].
+Creative Commons, 2025. Creative Commons. [online] Available at: https://creativecommons.org [Accessed 2 Aug. 2025].
+OpenAI, 2025. ChatGPT. [online] Available at: https://chat.openai.com [Accessed 2 Aug. 2025].
+Joostenberg. (2025). Joostenberg Deli & Wine Estate – The Deli. Available at: https://joostenberg.co.za/the-deli/ (Accessed: 26 August 2025).
+Joostenberg. (2025). The Kraal Restaurant. Available at: https://joostenberg.co.za/the_kraal_restaurant/ (Accessed: 26 August 2025).
+Joostenberg. (2025). Our Story & Official Site. Available at: https://joostenberg.co.za/ (Accessed: 26 August 2025).
+Joostenberg. (2025). Our Story. Available at: https://joostenberg.co.za/our-story/ (Accessed: 26 August 2025).
+Joostenberg. (2025). The Deli. Available at: https://joostenberg.co.za/the-deli/ (Accessed: 26 August 2025).
+Inside Guide. (2025). Klein Joostenberg. Available at: https://insideguide.co.za/cape-town/klein-joostenberg/ (Accessed: 26 August 2025).
+Cape Town Today. (2025). Joostenberg Bistro: A Fresh Family-Friendly Winelands Outing with Gourmet Cred. Available at: https://capetown.today/joostenberg-bistro-a-fresh-family-friendly-winelands-outing-with-gourmet-cred/ (Accessed: 26 August 2025).
+Wanderlog. (2025). Joostenberg Bistro. Available at: https://wanderlog.com/place/details/8177286?utm_source (Accessed: 26 August 2025).
+Visit Stellenbosch. (2025). Joostenberg Bistro. Available at: https://www.visitstellenbosch.org/listing/joostenberg-bistro-2/ (Accessed: 26 August 2025).
+OpenAI. (2025) Canvas. Available at: https://chat.openai.com/canvas (Accessed: 23 August 2025).
+Wanderlog, 2025. Customer reviews of Joostenberg Deli and Wine Estate. [online] Available at: https://www.wanderlog.com [Accessed 25 August 2025].
+Visit Stellenbosch, 2025. Joostenberg Deli and Wine Estate. [online] Available at: https://www.visitstellenbosch.com [Accessed 25 August 2025].
+Mzansi Bride, 2025. Best Delis 2025: Joostenberg. [online] Available at: https://www.mzansibride.co.za [Accessed 25 August 2025].
+
 ### Updated Readme (WEDE5020-PART2)
+GitHub Link: https://github.com/ST10467774/ST10467774-Joostenberg-Deli-and-Wine-Estate
+
+Part 2 Overview: This project continues from Part 1 and focuses on implementing CSS styling and responsive design.
+
+Updates Made
+Applied typography styles: font-size, line-height, font-weight, and letter-spacing across headings, body, and form elements.
+
+Created layout structures using Flexbox (navigation, hero, footer) and CSS Grid (cards, form layout).
+
+Implemented visual styles including hover, focus, and active states for buttons, navigation, and calendar days.
+
+Added responsive design breakpoints:
+
+Tablet view at 768px (2-column grids, stacked navbar).
+Mobile view at 400px (single-column layout, dropdown menu).
+Integrated relative units (rem, %) for scalable typography and spacing.
+
+Ensured responsive images with flexible sizing and object-fit.
+
+Cleaned up color variables and used CSS custom properties for maintainability.
+
+Testing
+Tested using Chrome Developer Tools on desktop, tablet, and mobile simulated screens.
+
+Verified typography, layout, and responsive breakpoints function as required.
+
+Confirmed hover, focus, and active states work across interactive elements.
+
+References
+Joostenberg. (n.d.) The Deli. Joostenberg. Available at: https://joostenberg.co.za/the-deli/ (Accessed: 29 September 2025).
+
+OpenAI. (2025) ChatGPT responses on CSS styling, README documentation, changelog formatting, and website structure guidance. Available at: https://chat.openai.com/ (Accessed: 28 September 2025).
+
+MDN Web Docs. (n.d.) CSS: Cascading Style Sheets. Mozilla. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: 29 September 2025).
+
+MDN Web Docs. (n.d.) Responsive design. Mozilla. Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design (Accessed: 29 September 2025).
+
+Anglia Ruskin University. (2023) Harvard System of Referencing Guide. Cambridge: Anglia Ruskin University. Available at: https://library.aru.ac.uk/referencing/harvard.htm (Accessed: 29 September 2025).
+
+Unsplash. (2017) Photo of breakfast scene with coffee and bread [Photograph]. Available at: https://images.unsplash.com/photo-1504754524776-8f4f37790ca0 (Accessed: 29 September 2025).
+
+GitHub Docs. (n.d.) About README files. GitHub. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes (Accessed: 29 September 2025).
+
+Keep a Changelog. (2019) Keep a Changelog. Available at: https://keepachangelog.com/ (Accessed: 29 September 2025).
