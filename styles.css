@@ -19,12 +19,12 @@ body{
   font-family: "Lato", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color:var(--text);
   background:var(--purple-100);
-  line-height:1.6; /* Typography: line-height */
+  line-height:0,1; /* Typography: line-height */
   font-size:1rem;  /* Typography: base font size using relative unit */
 }
 
 /* ============== Layout ============== */
-.container{width:min(1100px, 92%); margin:0 auto}
+.container{width:min(1000px, 80%); margin:0 auto}
 .header{
   background:linear-gradient(180deg, var(--purple-300), var(--purple-100));
   position:sticky; top:0; z-index:1000; box-shadow:var(--shadow);
@@ -43,7 +43,7 @@ body{
   letter-spacing:0.5px; /* Typography: letter-spacing */
 }
 nav ul{
-  list-style:none; display:flex; gap:1rem; margin:0; padding:0
+  list-style:none; display:flex; gap:0,6rem; margin:0; padding:0
 }
 nav a{
   text-decoration:none; color:var(--brown-800);
@@ -88,7 +88,7 @@ nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)} /* 
 .button-ghost:hover{background:#86DD8F}
 
 /* ============== Cards / Grids ============== */
-.grid{display:grid; gap:1.2rem}
+.grid{display:grid; gap:1rem}
 .grid-3{grid-template-columns:repeat(3, 1fr)} /* CSS Grid Layout */
 .grid-2{grid-template-columns:repeat(2, 1fr)}
 .card{
@@ -96,7 +96,7 @@ nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)} /* 
   overflow:hidden; display:flex; flex-direction:column;
 }
 .card img{
-  width:100%; height:auto; object-fit:cover; /* Responsive Images */
+  width: 100%; height:auto; object-fit:cover; /* Responsive Images */
 }
 .card-body{padding:1rem}
 .card h3{
