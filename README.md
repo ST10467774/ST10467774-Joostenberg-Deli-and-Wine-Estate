@@ -137,5 +137,27 @@ Part 2 Overview: This project continues from **Part 1** and focuses on implement
 - Added screenshots to see the website adapting to screen sizes.
 
 ## References
+* Joostenberg. (n.d.) The Deli. Joostenberg. Available at: https://joostenberg.co.za/the-deli/
+ (Accessed: 29 September 2025).
 
+* OpenAI. (2025) ChatGPT responses on CSS styling, README documentation, changelog formatting, and website structure guidance. Available at: https://chat.openai.com/
+ (Accessed: 28 September 2025).
+
+* MDN Web Docs. (n.d.) CSS: Cascading Style Sheets. Mozilla. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+ (Accessed: 29 September 2025).
+
+* MDN Web Docs. (n.d.) Responsive design. Mozilla. Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+ (Accessed: 29 September 2025).
+
+* Anglia Ruskin University. (2023) Harvard System of Referencing Guide. Cambridge: Anglia Ruskin University. Available at: https://library.aru.ac.uk/referencing/harvard.htm
+ (Accessed: 29 September 2025).
+
+* Unsplash. (2017) Photo of breakfast scene with coffee and bread [Photograph]. Available at: https://images.unsplash.com/photo-1504754524776-8f4f37790ca0
+ (Accessed: 29 September 2025).
+
+* GitHub Docs. (n.d.) About README files. GitHub. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
+ (Accessed: 29 September 2025).
+
+* Keep a Changelog. (2019) Keep a Changelog. Available at: https://keepachangelog.com/
+ (Accessed: 29 September 2025).
 
