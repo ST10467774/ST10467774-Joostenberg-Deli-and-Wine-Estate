@@ -75,7 +75,7 @@ Inside Guide. (2025). Klein Joostenberg. Available at: https://insideguide.co.za
 
 ## Updated Readme WEDE5020-PART 2
 # Joostenberg Deli & Wine Estate Website
-GitHub Link: 
+GitHub Link: https://github.com/ST10467774/ST10467774-Joostenberg-Deli-and-Wine-Estate
 
 ## Part 2 – CSS Styling and Responsive Design
 
