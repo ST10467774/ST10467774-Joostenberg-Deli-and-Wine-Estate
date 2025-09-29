@@ -116,15 +116,14 @@ Part 2 Overview: This project continues from **Part 1** and focuses on implement
   <img width="1110" height="906" alt="JS 2" src="https://github.com/user-attachments/assets/a1ba9ace-a530-4814-84d4-5e7b215124d3" />
   <img width="1090" height="910" alt="JS 3-TABLET SIZE" src="https://github.com/user-attachments/assets/f67d2dac-e59e-42c5-ac1f-9810d8e92f17" />
   <img width="1102" height="897" alt="JS 4- TABLET SIZE" src="https://github.com/user-attachments/assets/a03fddf2-5161-4b28-b46f-495139733ad8" />
-  
-
-
-
+  <img width="1203" height="915" alt="JS 5-LAPTOP SIZE" src="https://github.com/user-attachments/assets/cee57ca8-ba2f-4316-a19d-75ce4f7f6873" />
   
 
   
-    
 
+
+
+  
 ## Changelog Version 2
 29 September 2025
 - Edited `styles.css`:
