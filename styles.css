@@ -1,4 +1,4 @@
-/* ============== Root & Theme ============== */
+/* ============== Root and Theme ============== */
 /* Variables for consistent theming across the site */
 :root{
   --purple-100:#DACCC1;     /* beige background */
@@ -48,10 +48,10 @@ nav ul{
 nav a{
   text-decoration:none; color:var(--brown-800);
   padding:.55rem .9rem; border-radius:999px; transition:.2s;
-  font-weight:600; letter-spacing:0.3px; /* ✅ Typography */
+  font-weight:600; letter-spacing:0.3px; /* Typography */
 }
-nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)} /* ✅ Visual Style: hover + active */
-.navbar{display:flex; justify-content:space-between; align-items:center} /* ✅ Flexbox Layout */
+nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)} /* Visual Style: hover + active */
+.navbar{display:flex; justify-content:space-between; align-items:center} /* Flexbox Layout */
 .menu-btn{display:none; border:none; background:transparent; font-size:1.4rem}
 
 /* ============== Hero & Sections ============== */
@@ -106,7 +106,7 @@ nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)} /* 
 .price{font-weight:800; color:var(--brown-800)}
 .kicker{color:var(--muted); font-size:.80rem}
 
-/* ============== Tables & Forms ============== */
+/* ============== Tables and Forms ============== */
 .table{width:100%; border-collapse:collapse; background:#D49AB3; border-radius:9px; overflow:hidden; box-shadow:var(--shadow)}
 .table th,.table td{padding:.6rem 1rem; border-bottom:1px solid #FFEFEC}
 .table th{background:var(--purple-300); text-align:left}
