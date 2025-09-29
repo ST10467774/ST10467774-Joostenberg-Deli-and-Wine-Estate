@@ -119,7 +119,7 @@ This project continues from **Part 1** and focuses on implementing **CSS styling
   - Added mobile-first breakpoints.
 - Updated HTML pages to ensure they link correctly to the stylesheet.
 - Adjusted navigation to work with JavaScript mobile toggle menu.
-- Add a referencelist to the readme of part 1.
+- Add a reference list to the readme of part 1.
 - Added screenshots to see the website adapting to screen sizes.
 
 ## Reference List
