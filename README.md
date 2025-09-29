@@ -92,7 +92,9 @@ Changed HTML in the codes. Changed pictures in the website to make it more user 
 
 
 ### Updated Readme (WEDE5020-PART2) CSS Styling and Responsive Design
-GitHub Link:
+
+GitHub Link: https://github.com/ST10467774/ST10467774-Joostenberg-Deli-and-Wine-Estate 
+
 Part 2 Overview: This project continues from **Part 1** and focuses on implementing **CSS styling** and **responsive design**.
 
 ## Updates Made
