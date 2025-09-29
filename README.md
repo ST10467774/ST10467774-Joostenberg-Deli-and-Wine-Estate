@@ -98,9 +98,18 @@ This project continues from **Part 1** and focuses on implementing **CSS styling
 - Confirmed hover, focus, and active states work across interactive elements.
 
 ## Screenshots
-
-
-
+<img width="743" height="912" alt="JS 1" src="https://github.com/user-attachments/assets/d6d7d919-287d-4a83-90e0-b216e8e6b5e4" />
+<img width="1110" height="906" alt="JS 2" src="https://github.com/user-attachments/assets/18481032-b7b5-4aec-bde9-d74a325029dd" />
+<img width="1090" height="910" alt="JS 3-TABLET SIZE" src="https://github.com/user-attachments/assets/9098c489-4eff-488c-a39b-343fa33599b4" />
+<img width="1102" height="897" alt="JS 4- TABLET SIZE" src="https://github.com/user-attachments/assets/f5afb6e2-e282-4db9-bb6d-0642a1803663" />
+<img width="1203" height="915" alt="JS 5-LAPTOP SIZE" src="https://github.com/user-attachments/assets/4d25e9d7-04e4-46ac-86e9-25fef22206ba" />
+<img width="1052" height="893" alt="JS 6-LAPTOP SIZE" src="https://github.com/user-attachments/assets/04ce20a3-c541-4aee-a782-8ecb9a332680" />
+<img width="778" height="923" alt="JS 7 MOBILE SIZE" src="https://github.com/user-attachments/assets/47134cd4-3dff-446c-8507-5a094db7bd90" />
+<img width="731" height="916" alt="JS 8 MOBILE SIZE" src="https://github.com/user-attachments/assets/eba67aa6-4f15-4e5e-81cc-a509c39961ae" />
+<img width="1056" height="897" alt="JS 9" src="https://github.com/user-attachments/assets/42fdf7f4-7b4a-44e3-889c-c0e8dc7da63e" />
+<img width="1022" height="913" alt="JS 10" src="https://github.com/user-attachments/assets/c31d1e8c-63dd-48ee-8545-3af6a5b071c6" />
+<img width="612" height="912" alt="JS 11" src="https://github.com/user-attachments/assets/92710459-b0dd-4cb0-bc12-023d49c7fc8c" />
+<img width="1227" height="916" alt="JS 12" src="https://github.com/user-attachments/assets/ab73f45a-83bd-4488-be91-c054988e4f20" />
 
 ## Changelog Version 2
 29 September 2025
