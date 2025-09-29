@@ -112,6 +112,16 @@ Part 2 Overview: This project continues from **Part 1** and focuses on implement
 - Confirmed hover, focus, and active states work across interactive elements.
 
   ## Screenshots
+  <img width="743" height="912" alt="JS 1" src="https://github.com/user-attachments/assets/3bbe6ef8-ccba-4070-817e-79032ee38cfb"/>
+  <img width="1110" height="906" alt="JS 2" src="https://github.com/user-attachments/assets/a1ba9ace-a530-4814-84d4-5e7b215124d3" />
+  <img width="1090" height="910" alt="JS 3-TABLET SIZE" src="https://github.com/user-attachments/assets/f67d2dac-e59e-42c5-ac1f-9810d8e92f17" />
+  <img width="1102" height="897" alt="JS 4- TABLET SIZE" src="https://github.com/user-attachments/assets/a03fddf2-5161-4b28-b46f-495139733ad8" />
+  
+
+
+
+  
+
   
     
 
