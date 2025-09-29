@@ -117,13 +117,14 @@ Part 2 Overview: This project continues from **Part 1** and focuses on implement
   <img width="1090" height="910" alt="JS 3-TABLET SIZE" src="https://github.com/user-attachments/assets/f67d2dac-e59e-42c5-ac1f-9810d8e92f17" />
   <img width="1102" height="897" alt="JS 4- TABLET SIZE" src="https://github.com/user-attachments/assets/a03fddf2-5161-4b28-b46f-495139733ad8" />
   <img width="1203" height="915" alt="JS 5-LAPTOP SIZE" src="https://github.com/user-attachments/assets/cee57ca8-ba2f-4316-a19d-75ce4f7f6873" />
-  
-
-  
-
-
-
-  
+  <img width="1052" height="893" alt="JS 6-LAPTOP SIZE" src="https://github.com/user-attachments/assets/402d4ba3-f6ea-4163-82f7-6aaa4ad08d1f" />
+  <img width="778" height="923" alt="JS 7 MOBILE SIZE" src="https://github.com/user-attachments/assets/fda1fefa-efb7-4a4c-bbff-e03b15fe9961" />
+  <img width="731" height="916" alt="JS 8 MOBILE SIZE" src="https://github.com/user-attachments/assets/5937d6c0-b431-46a6-a7f6-8f00bd7e19cc" />
+  <img width="1056" height="897" alt="JS 9" src="https://github.com/user-attachments/assets/83ffabbd-ea3a-43a4-b96b-c8384b959feb" />
+  <img width="1022" height="913" alt="JS 10" src="https://github.com/user-attachments/assets/eed7ed9c-62fe-4156-af20-a1fb4b73f882" />
+  <img width="612" height="912" alt="JS 11" src="https://github.com/user-attachments/assets/2c4e6fd6-daea-4a7a-9cd9-28b6e8886510" />
+  <img width="1227" height="916" alt="JS 12" src="https://github.com/user-attachments/assets/c7859331-586d-4cfd-add5-d82e6e891c21" />
+ 
 ## Changelog Version 2
 29 September 2025
 - Edited `styles.css`:
@@ -133,8 +134,8 @@ Part 2 Overview: This project continues from **Part 1** and focuses on implement
 - Updated HTML pages to ensure they link correctly to the stylesheet.
 - Adjusted navigation to work with JavaScript mobile toggle menu.
 - Add a referencelist to the readme of part 1.
-
-
+- Added screenshots to see the website adapting to screen sizes.
 
 ## References
+
 
