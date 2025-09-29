@@ -31,7 +31,7 @@ body{
 }
 .brand{ display:flex; align-items:center; gap:.75rem; padding:1rem 0; }
 .brand .logo{
-  width:44px; height:44px; border-radius:50%;
+  width:33px; height:44px; border-radius:50%;
   background:var(--brown-600); color:var(--white);
   display:grid; place-items:center; font-weight:700;
   box-shadow:0 4px 12px rgba(155, 100, 58, 0.35);
