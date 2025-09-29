@@ -29,7 +29,7 @@ body{
   background:linear-gradient(180deg, var(--purple-300), var(--purple-100));
   position:sticky; top:0; z-index:1000; box-shadow:var(--shadow);
 }
-.brand{ display:flex; align-items:center; gap:.75rem; padding:1rem 0; }
+.brand{ display:flex; align-items:center; gap:.200rem; padding:1rem 0; }
 .brand .logo{
   width:33px; height:44px; border-radius:50%;
   background:var(--brown-600); color:var(--white);
@@ -88,7 +88,7 @@ nav a:hover, nav a.active{background:var(--white); box-shadow:var(--shadow)} /* 
 .button-ghost:hover{background:#86DD8F}
 
 /* ============== Cards / Grids ============== */
-.grid{display:grid; gap:1rem}
+.grid{display:grid; gap:2rem}
 .grid-3{grid-template-columns:repeat(3, 1fr)} /* CSS Grid Layout */
 .grid-2{grid-template-columns:repeat(2, 1fr)}
 .card{
